@@ -1,7 +1,7 @@
 <template>
   <div class="header row screen-center justify-between q-px-sm">
     <router-link to="/">
-    <img src="@/assets/logo.png" alt="logo" />
+      <img src="@/assets/logo.png" alt="logo" />
     </router-link>
     <nav v-if="$q.screen.gt.xs" class="q-my-auto">
       <ul>
