@@ -1,12 +1,16 @@
 <template>
-  <Header />
-  <hr class="q-my-none"/>
-  <router-view />
-  <Footer />
+  <q-layout view="lHh lpR lFf">
+    <Header />
+    <hr class="q-my-none" />
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+    <Footer />
+  </q-layout>
 </template>
 
 <script lamg="ts">
-import { defineComponent } from "@vue/runtime-core";
+import { defineComponent } from "vue";
 import Header from "./components/Layout/Header.vue";
 import Footer from "./components/Layout/Footer.vue";
 export default defineComponent({

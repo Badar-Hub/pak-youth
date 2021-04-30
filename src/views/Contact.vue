@@ -1,7 +1,7 @@
 <template>
   <div class="contact q-my-xl">
     <div class="row screen-center justify-between">
-      <div class="col q-my-auto">
+      <div class="col col-xs-12 col-sm-6 q-my-auto">
         <h3>
           Contact
         </h3>
@@ -17,7 +17,7 @@
           Gjallied639@gmail.com<br /><br /><br />
         </p>
       </div>
-      <div class="col q-my-auto">
+      <div class="col col-xs-12 col-sm-6 q-my-auto">
         <img class="map-img" src="@/assets/images/map.png" alt="map" />
       </div>
     </div>

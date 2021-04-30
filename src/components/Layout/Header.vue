@@ -23,16 +23,27 @@
       </ul>
     </nav>
     <nav class="q-my-auto" v-else>
-      <q-icon name="menu" size="lg" />
+      <q-icon @click="leftDrawerOpen = !leftDrawerOpen" name="menu" size="lg" />
+      <MobileMenu v-model="leftDrawerOpen" />
     </nav>
   </div>
 </template>
 
 <script>
-export default {};
+import MobileMenu from "./MobileMenu.vue";
+import { defineComponent, ref } from "vue";
+export default defineComponent({
+  components: {
+    MobileMenu
+  },
+  setup() {
+    const leftDrawerOpen = ref(false);
+    return { leftDrawerOpen };
+  }
+});
 </script>
 
-<style lang="scss">
+<style lang="scss" MobileMenu>
 .header {
   img {
     max-width: 90px;

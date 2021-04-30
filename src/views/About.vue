@@ -1,9 +1,9 @@
 <template>
   <div class="row screen-center about">
-    <div class="col-3 q-my-auto q-px-sm">
+    <div class="col col-xs-12 col-sm-3 q-my-auto q-px-sm">
       <img src="@/assets/images/about/01.jpeg" alt="owner" />
     </div>
-    <div class="col-9 q-px-xl">
+    <div class="col col-xs-12 col-sm-9 q-px-xl">
       <h6>
         GJ Allied company (Pvt.) ltd. has completed 10 years of its operations
         and today we are one of a leading construction company of the country.
@@ -86,7 +86,7 @@
       leadership as the nation’s finest construction organization by strict
       adherence to our core values and by:
     </h6>
-    <div class="col-7">
+    <div class="col col-xs-12 col-sm-7">
       <h6>
         <li>Continuously improving the quality of our work and services.</li>
         <li>Constantly striving to exceed each client’s expectations.</li>
@@ -102,7 +102,7 @@
         </li>
       </h6>
     </div>
-    <div class="col-5">
+    <div class="col col-xs-12 col-sm-5">
       <img
         class="allied-img"
         src="@/assets/images/about/03.jpeg"
